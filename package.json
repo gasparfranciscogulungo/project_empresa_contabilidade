@@ -1,0 +1,55 @@
+{
+  "name": "emj-consultoria-website",
+  "version": "1.0.0",
+  "description": "Website institucional da EMJ Consultoria - Soluções empresariais em Angola",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "cleancss -o css/style.min.css css/style.css && cleancss -o css/cookies.min.css css/cookies.css && cleancss -o css/publicidade.min.css css/publicidade.css",
+    "build:js": "terser js/script.js -o js/script.min.js -c -m && terser js/cookies.js -o js/cookies.min.js -c -m && terser js/publicidade.js -o js/publicidade.min.js -c -m",
+    "watch": "npm run watch:css & npm run watch:js",
+    "watch:css": "chokidar 'css/*.css' -c 'npm run build:css'",
+    "watch:js": "chokidar 'js/*.js' -c 'npm run build:js'",
+    "test": "echo 'Executar testes de acessibilidade e performance'",
+    "lighthouse": "lighthouse http://localhost:3000 --output html --output-path ./reports/lighthouse-report.html",
+    "validate": "html5validator --root . --also-check-css --also-check-svg",
+    "optimize-images": "imageoptim assets/images/**/*.{jpg,jpeg,png}",
+    "deploy": "npm run build && echo 'Arquivos prontos para deploy na pasta dist/'"
+  },
+  "keywords": [
+    "consultoria",
+    "contabilidade",
+    "fiscal",
+    "recursos-humanos",
+    "juridico",
+    "angola",
+    "empresas",
+    "website"
+  ],
+  "author": "EMJ Consultoria",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "terser": "^5.19.4",
+    "live-server": "^1.2.2",
+    "chokidar-cli": "^3.0.0",
+    "lighthouse": "^11.1.0",
+    "html5validator": "^0.4.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emj-consultoria/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emj-consultoria/website/issues"
+  },
+  "homepage": "https://www.emjconsultoria.ao"
+}

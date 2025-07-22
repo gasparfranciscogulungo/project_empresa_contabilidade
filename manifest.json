@@ -1,0 +1,53 @@
+{
+  "name": "EMJ Consultoria - Soluções Empresariais",
+  "short_name": "EMJ Consultoria",
+  "description": "Soluções empresariais especializadas em contabilidade, fiscal, recursos humanos e jurídico em Angola",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#007bff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/logo/logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logo/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Agendar Consulta",
+      "short_name": "Agendar",
+      "description": "Agende uma consulta empresarial",
+      "url": "#agendamento",
+      "icons": [
+        {
+          "src": "assets/logo/logo.jpeg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Nossos Serviços",
+      "short_name": "Serviços",
+      "description": "Conheça nossos serviços especializados",
+      "url": "#servicos",
+      "icons": [
+        {
+          "src": "assets/logo/logo.jpeg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

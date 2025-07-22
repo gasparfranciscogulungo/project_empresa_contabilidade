@@ -1,0 +1,658 @@
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EmpresaConsultoria - Soluções empresariais especializadas em contabilidade, fiscal, recursos humanos e jurídico em Angola. Transforme seus desafios em oportunidades.">
+    <meta name="keywords" content="consultoria, contabilidade, fiscal, recursos humanos, jurídico, Angola, EMJ, empresas, soluções empresariais">
+    <meta name="author" content="Gaspar Francisco Gulungo">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.emjconsultoria.ao/">
+    <meta property="og:title" content="EMJ Consultoria - Soluções Empresariais em Angola">
+    <meta property="og:description" content="Transforme seus desafios em oportunidades com a EMJ Consultoria. Soluções especializadas em contabilidade, fiscal, RH e jurídico.">
+    <meta property="og:image" content="https://www.emjconsultoria.ao/assets/logo/logo.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.emjconsultoria.ao/">
+    <meta property="twitter:title" content="EMJ Consultoria - Soluções Empresariais em Angola">
+    <meta property="twitter:description" content="Transforme seus desafios em oportunidades com a EMJ Consultoria. Soluções especializadas em contabilidade, fiscal, RH e jurídico.">
+    <meta property="twitter:image" content="https://www.emjconsultoria.ao/assets/logo/logo.jpeg">
+
+    <title>Sua Empresa de Consultoria - Soluções Empresariais Especializadas em Angola</title>
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="assets/logo/logo.jpeg" as="image">
+    
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookies.css">
+    <link rel="stylesheet" href="css/publicidade.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="#">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EMJ Consultoria">
+    <link rel="apple-touch-icon" href="assets/logo/logo.jpeg">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="container menu-container">
+      <div class="logo-text">Sua Logo</div>
+      
+      <div class="mobile-controls show-mobile">
+        <button class="theme-toggle-mobile" id="themeToggleMobile" aria-label="Alternar tema" title="Alternar tema">
+          <i class="bi bi-moon-fill"></i>
+        </button>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu mobile" title="Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+      <!-- Menu Mobile -->
+      <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+      <nav class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-list">
+          <li><a href="#home"><i class="bi bi-house-fill"></i><span>Home</span></a></li>
+          <li><a href="#servicos"><i class="bi bi-briefcase-fill"></i><span>Serviços</span></a></li>
+          <li><a href="#galeria"><i class="bi bi-images"></i><span>Galeria</span></a></li>
+          <li><a href="#sobrenos"><i class="bi bi-people-fill"></i><span>Sobre Nós</span></a></li>
+          <li><a href="#contactos"><i class="bi bi-telephone-fill"></i><span>Contactos</span></a></li>
+          <li>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Pesquisar">
+              <i class="bi bi-search"></i><span>Pesquisar</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Menu Desktop -->
+      <nav class="navbar hide-mobile">
+            <ul class="nav-list">
+            <li>
+              <a href="#home">
+                
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#servicos">
+                
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a href="#galeria">
+                
+                Galeria
+              </a>
+            </li>
+            <li>
+              <a href="#sobrenos">
+                
+                Sobre Nós
+              </a>
+            </li>
+            <li>
+              <a href="#contactos">
+                Contactos
+              </a>
+            </li>
+            <li>
+              <a href="#" class="btn no-underline" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Pesquisar">
+                <i class="bi bi-search"></i>
+              </a>
+            </li>
+            <li>
+              <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">
+                <i class="bi bi-moon-fill"></i>
+              </button>
+            </li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Modal de Pesquisa -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="exampleModalLabel">Pesquise aqui</h2 >
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group input-group-lg">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+            <input type="search" class="form-control" placeholder="Digite sua pesquisa aqui...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section PRINCIPAL-->
+  <section class="hero-section" id="home">
+    <div class="hero-container">
+      <h1 class="hero-title" id="typewriter"></h1>
+      <p>Transforme Seus Desafios em Oportunidades com Nossa Consultoria. Soluções Contábeis, Fiscais, de RH e Jurídicas, sob medida para empresas em Angola.</p>
+      <div class="hero-buttons">
+        <a href="#sobrenos" class="btn btn-primary btn-lg me-3">Saber Mais</a>
+        <a href="#contactos" class="btn btn-outline-light btn-lg">Agendar Consulta</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!--- Nossos Valores --->
+  <section class="about-cards section-anchor" id="excelencia">
+    <div class="container-cards">
+      <h2 class="about-title">Nossos Valores</h2>
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80" alt="Equipe EMJ Consultoria - Excelência e Experiência" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Excelência e Experiência</h3>
+          <p>
+            A <strong>Nossa Consultoria</strong> é referência em soluções empresariais, com mais de 5 anos de atuação e uma equipe multidisciplinar altamente qualificada.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Inovação e Transparência - EMJ Consultoria" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Inovação e Transparência</h3>
+          <p>
+            Nossa abordagem é baseada em ética, transparência e inovação, garantindo responsabilidade e foco nos resultados em cada projeto.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Relacionamento e Confiança - EMJ Consultoria" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Relacionamento e Confiança</h3>
+          <p>
+            Trabalhamos lado a lado com nossos clientes, construindo relações de confiança e entregando valor em cada etapa do processo.
+          </p>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!--- NOSSOS DESTAQUES --->
+  <section class="slider-section" id="servicos">
+    <div class="slider-title">Nossos Destaques</div>
+    <div class="slider-viewport" aria-live="polite">
+      <button class="slider-btn left" aria-label="Slide anterior">&#10094;</button>
+      <div class="slider-track">
+        
+        <div class="slider-card" tabindex="0">
+          <a href="#contactos" aria-label="Saiba mais sobre Consultoria Estratégica">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Consultoria Estratégica - EMJ Consultoria" loading="lazy">
+          </a>
+          <div class="slider-card-title">Consultoria Estratégica</div>
+          <div class="slider-card-text">Soluções estratégicas personalizadas para impulsionar o crescimento do seu negócio.</div>
+        </div>
+
+        <div class="slider-card" tabindex="0">
+          <a href="#contactos" aria-label="Saiba mais sobre Recursos Humanos">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=400&q=80" alt="Recursos Humanos - Gestão de Talentos" loading="lazy">
+          </a>
+          <div class="slider-card-title">Recursos Humanos</div>
+          <div class="slider-card-text">Gestão completa de talentos, folha de pagamento e desenvolvimento organizacional.</div>
+        </div>
+
+        <div class="slider-card" tabindex="0">
+          <a href="#contactos" aria-label="Saiba mais sobre Consultoria Fiscal">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=400&q=80" alt="Consultoria Fiscal e Tributária" loading="lazy">
+          </a>
+          <div class="slider-card-title">Consultoria Fiscal</div>
+          <div class="slider-card-text">Otimização tributária e conformidade fiscal para maximizar a eficiência da sua empresa.</div>
+        </div>
+
+        <div class="slider-card" tabindex="0">
+          <a href="#contactos" aria-label="Saiba mais sobre Assessoria Jurídica">
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=400&q=80" alt="Assessoria Jurídica Empresarial" loading="lazy">
+          </a>
+          <div class="slider-card-title">Assessoria Jurídica</div>
+          <div class="slider-card-text">Suporte jurídico especializado em direito empresarial e societário.</div>
+        </div>
+
+        <div class="slider-card" tabindex="0">
+          <a href="#contactos" aria-label="Saiba mais sobre Contabilidade">
+            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=400&q=80" alt="Contabilidade Empresarial" loading="lazy">
+          </a>
+          <div class="slider-card-title">Contabilidade</div>
+          <div class="slider-card-text">Gestão contábil completa com relatórios detalhados e análises financeiras.</div>
+        </div>
+        
+      </div>
+      <button class="slider-btn right" aria-label="Próximo slide">&#10095;</button>
+      <div class="slider-indicators" role="tablist"></div>
+    </div>
+  </section>
+
+
+  <!--- NOSSOS SERVIÇOS DETALHADOS --->
+  <section class="about-cards section-anchor" id="sobrenos">
+    <div class="container-cards">
+      <h2 class="about-title">Nossos Serviços Especializados</h2>
+      
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Consultoria Contábil e Financeira" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Consultoria Contábil e Financeira</h3>
+          <p>
+            Oferecemos gestão contábil completa, análise financeira, planejamento orçamentário e relatórios gerenciais que auxiliam na tomada de decisões estratégicas para o crescimento sustentável do seu negócio.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80" alt="Gestão de Recursos Humanos" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Gestão de Recursos Humanos</h3>
+          <p>
+            Soluções completas em RH, incluindo folha de pagamento, recrutamento e seleção, treinamento e desenvolvimento, gestão de benefícios e consultoria em legislação trabalhista angolana.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80" alt="Assessoria Jurídica Empresarial" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Assessoria Jurídica Empresarial</h3>
+          <p>
+            Suporte jurídico especializado em direito empresarial, societário, contratos comerciais, licenciamento, compliance e resolução de conflitos empresariais dentro do ordenamento jurídico angolano.
+          </p>
+        </div>
+      </div>
+
+      <!---
+      
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Consultoria Fiscal e Tributária" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Consultoria Fiscal e Tributária</h3>
+          <p>
+            Otimização fiscal, planejamento tributário, conformidade com o IVA e outros impostos, assessoria em processos de fiscalização e estruturação fiscal para empresas em Angola.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Consultoria Estratégica" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Consultoria Estratégica</h3>
+          <p>
+            Análise de mercado, planejamento estratégico, reestruturação empresarial, processos de governança corporativa e consultoria para expansão de negócios no mercado angolano.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1556742049-0ca0f17a8473?auto=format&fit=crop&w=800&q=80" alt="Auditoria e Compliance" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h3>Auditoria e Compliance</h3>
+          <p>
+            Auditoria interna e externa, implementação de sistemas de controle interno, compliance regulatório, avaliação de riscos e elaboração de relatórios de auditoria conforme normas internacionais.
+          </p>
+        </div>
+      </div>
+      
+      
+      -->
+
+      
+    </div>
+  </section>
+
+
+  <!--- AGENDAMENTO DE CONSULTORIA --->
+  <section class="hero-section-consultoria">
+    <div class="hero-consultoria-bg">
+      <div class="hero-consultoria-container">
+        <h2 class="hero-consultoria-title">Agende sua Consultoria com Facilidade</h2>
+        <p class="hero-consultoria-text">
+          Organize sua consultoria de forma simples e rápida! Basta preencher o formulário abaixo com seus dados, selecionar o serviço desejado e indicar a data e o horário de sua preferência.<br><br>
+          Nossa equipe analisará as informações e entrará em contato para confirmar o agendamento, garantindo um atendimento personalizado e alinhado às necessidades do seu negócio.
+        </p>
+        <div class="hero-buttons">
+          <a href="#sobrenos" class="btn btn-primary btn-lg me-3">Saber Mais</a>
+          <a href="#contactos" class="btn btn-outline-light btn-lg">Fale Conosco</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!--- FORMULARIO DE AGENDAMENTO DE CONSULTORIA --->
+
+<section class="agendamento-section" id="agendamento">
+  <div class="agendamento-container">
+    <!-- Lado Esquerdo - Formulário -->
+    <div class="agendamento-form-side">
+      <div class="form-content">
+        <div class="form-header">
+          <h2>Agende Sua Consultoria</h2>
+          <p>Transforme seu negócio com nossa expertise. Preencha o formulário e daremos início à sua jornada de sucesso.</p>
+        </div>
+        
+        <form class="modern-form" action="#" method="post" autocomplete="off">
+          <div class="row-form">
+            <div class="form-group-float">
+              <input type="text" id="name" name="name" placeholder=" " required>
+              <label for="name">Nome Completo</label>
+            </div>
+            <div class="form-group-float">
+              <input type="email" id="email" name="email" required placeholder=" ">
+              <label for="email">E-mail</label>
+            </div>
+          </div>
+          
+          <div class="row-form">
+            <div class="form-group-float">
+              <input type="tel" id="phone" name="phone" required placeholder=" ">
+              <label for="phone">Telefone/WhatsApp</label>
+            </div>
+            <div class="form-group-float">
+              <select id="service" name="service" required class="label-on-focus">
+                <option value="" disabled selected></option>
+                <option value="contabilidade">Contabilidade</option>
+                <option value="gestao_recursos_humanos">Gestão de Recursos Humanos</option>
+                <option value="direitos_empresariais">Direitos Empresariais</option>
+                <option value="fiscalidade">Fiscalidade</option>
+                <option value="auditoria">Auditoria & Compliance</option>
+                <option value="consultoria_estrategica">Consultoria Estratégica</option>
+              </select>
+              <label for="service">Serviço Desejado</label>
+            </div>
+          </div>
+          
+          <div class="row-form">
+            <div class="form-group-float">
+              <input type="date" id="date" name="date" class="label-on-focus" required placeholder=" ">
+              <label for="date">Data Preferencial</label>
+            </div>
+            <div class="form-group-float">
+              <input type="time" id="time" name="time" class="label-on-focus" required placeholder=" ">
+              <label for="time">Horário Preferencial</label>
+            </div>
+          </div>
+          
+          <div class="form-group-float full">
+            <textarea id="message" name="message" rows="4" placeholder=" "></textarea>
+            <label for="message">Mensagem/Observações</label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary modern-submit">
+            <span>Agendar Consultoria</span>
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Lado Direito - Informações da Empresa -->
+    <div class="agendamento-info-side">
+      <div class="info-content">
+        <div class="company-badge">
+          <h3>Nome da Sua Empresa</h3>
+          <p class="company-tagline">Excelência em Soluções Empresariais</p>
+        </div>
+
+        <div class="info-stats">
+          <div class="stat-item">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Anos de Experiência</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">200+</div>
+            <div class="stat-label">Clientes Satisfeitos</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Compromisso</div>
+          </div>
+        </div>
+
+        <div class="contact-quick">
+          <h4>Contato Direto</h4>
+          <div class="quick-contacts">
+            <a href="tel:+244972960560" class="quick-contact-item">
+              <i class="bi bi-telephone-fill"></i>
+              <span>+244 972 960 560</span>
+            </a>
+            <a href="mailto:contato@emjconsultoria.ao" class="quick-contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <span>contato@emjconsultoria.ao</span>
+            </a>
+            <a href="https://wa.me/244972960560" target="_blank" class="quick-contact-item whatsapp">
+              <i class="bi bi-whatsapp"></i>
+              <span>WhatsApp Direto</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--- NOSSOS CLIENTES --->
+<section class="clientes-section destaque-clientes" id="galeria">
+  <div class="clientes-bg-overlay"></div>
+  <div class="clientes-container">
+    <h2 class="clientes-title">Nossos Clientes Satisfeitos</h2>
+    <div class="clientes-list">
+      <div class="cliente-card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="Cliente Empresarial 1" loading="lazy">
+        <h3>Empresa de Tecnologia</h3>
+      </div>
+      <div class="cliente-card">
+        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=300&q=80" alt="Cliente Empresarial 2" loading="lazy">
+        <h3>Consultoria Financeira</h3>
+      </div>
+      <div class="cliente-card">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=300&q=80" alt="Cliente Empresarial 3" loading="lazy">
+        <h3>Indústria e Comércio</h3>
+      </div>
+      <div class="cliente-card">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=300&q=80" alt="Cliente Empresarial 4" loading="lazy">
+        <h3>Setor Imobiliário</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+<!-- Loader Overlay -->
+<div id="global-loader" class="loader-overlay" style="display: flex;">
+  <div class="loader-spinner">
+    <span class="dot dot1"></span>
+    <span class="dot dot2"></span>
+    <span class="dot dot3"></span>
+    <span class="dot dot4"></span>
+    <span class="dot dot5"></span>
+    <span class="dot dot6"></span>
+  </div>
+</div>
+
+  <!-- Rodapé -->
+   <footer class="footer-financeiro">
+    <div class="footer-container">
+        <div class="footer-col footer-brand">
+            <div class="logo-text">Sua Logo</div>
+            <p>
+                Consultoria especializada em finanças, contabilidade, fiscalidade e gestão empresarial. Soluções sob medida para o crescimento do seu negócio.
+            </p>
+            <div class="footer-social">
+                <a href="https://wa.me/972960560" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="mailto:contato@consultoria.com" title="E-mail"><i class="bi bi-envelope-fill"></i></a>
+                <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h5>Serviços</h5>
+            <ul>
+                <li><a href="#">Consultoria Financeira</a></li>
+                <li><a href="#">Contabilidade</a></li>
+                <li><a href="#">Gestão de RH</a></li>
+                <li><a href="#">Fiscalidade</a></li>
+                <li><a href="#">Direito Empresarial</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h5>Contato</h5>
+            <ul>
+                <li><i class="bi bi-telephone"></i> <a href="tel:+244972960560">+244 972 960 560</a></li>
+                <li><i class="bi bi-envelope"></i> <a href="mailto:contato@consultoria.com">contato@consultoria.com</a></li>
+                <li><i class="bi bi-geo-alt"></i> Luanda, Angola</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h5>Newsletter</h5>
+            <form action="#" method="post" class="footer-newsletter">
+                <input type="email" name="newsletter" placeholder="Seu e-mail" required>
+                <button type="submit">Inscrever</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-copy">
+        © 2025 Consultoria Financeira. Todos os direitos reservados.
+    </div>
+</footer>
+
+<!-- Banner de Cookies -->
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+  <div class="cookie-content">
+    <span class="cookie-title"><i class="bi bi-shield-lock"></i> Este site usa cookies</span>
+    <p>
+      Utilizamos cookies essenciais para funcionamento do site, além de cookies analíticos, de marketing e de funcionalidade para melhorar sua experiência. 
+      <a href="#" id="cookie-more">Saiba mais</a>.
+    </p>
+ <div class="cookie-actions">
+  <button id="cookie-accept-all" class="btn btn-primary">Aceitar todos</button>
+  <button id="cookie-accept-some" class="btn btn-outline-primary">Aceitar apenas essenciais</button>
+</div>
+  </div>
+</div>
+
+<!-- Modal de Política de Cookies -->
+<div id="cookie-modal" class="cookie-modal" style="display:none;">
+  <div class="cookie-modal-content">
+    <button class="cookie-modal-close" id="cookie-modal-close" aria-label="Fechar">&times;</button>
+    <h3>Política de Cookies</h3>
+    <ul>
+      <li><b>Cookies essenciais:</b> Necessários para funcionamento do site, como sessão de login e preferências de idioma.</li>
+      <li><b>Cookies analíticos:</b> Coletam dados de navegação para análise e melhoria do site (ex: Google Analytics).</li>
+      <li><b>Cookies de marketing:</b> Usados para rastreamento e anúncios personalizados.</li>
+      <li><b>Cookies de funcionalidade:</b> Guardam preferências do usuário, temas, etc.</li>
+    </ul>
+    <p>Você pode gerenciar cookies nas configurações do seu navegador.</p>
+  </div>
+</div>
+
+<!-- Pop-up Central de Oferta/Agendamento -->
+<div id="popup-central" class="popup-central" style="display:none;">
+  <div class="popup-central-content">
+    <button class="popup-central-close" id="popup-central-close" aria-label="Fechar">&times;</button>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Oferta" class="popup-central-img">
+    <h3>Agende sua Consultoria!</h3>
+    <p>Ganhe uma análise gratuita do seu negócio. Clique abaixo e agende agora mesmo com a nome da sua empresa</p>
+    <a href="#agendamento" class="btn btn-primary">Agendar Agora</a>
+  </div>
+</div>
+
+<!-- Banner Flutuante no Canto -->
+<div id="banner-flutuante" class="banner-flutuante" style="display:none;">
+  <div class="banner-flutuante-content">
+    <button class="banner-flutuante-close" id="banner-flutuante-close" aria-label="Fechar">&times;</button>
+    <i class="bi bi-megaphone-fill"></i>
+    <span>Nova solução para empresas! <a href="#servicos">Conheça agora</a></span>
+  </div>
+</div>
+
+<!-- Banner Flutuante Esquerda -->
+<div id="banner-flutuante-esq" class="banner-flutuante banner-flutuante-esq" style="display:none;">
+  <div class="banner-flutuante-content">
+    <button class="banner-flutuante-close" id="banner-flutuante-esq-close" aria-label="Fechar">&times;</button>
+    <i class="bi bi-lightbulb-fill"></i>
+    <span>Veja dicas exclusivas para sua empresa! <a href="#galeria">Acesse agora</a></span>
+  </div>
+</div>
+
+
+<!-- BOTAO DE SUBIR E DESCER -->
+
+<button class="footer-publicidade-close" id="footer-publicidade-close" aria-label="Fechar">&times;</button>
+
+<!-- Botões Flutuantes de Ação -->
+<div class="botoes-flutuantes">
+  <a href="https://wa.me/SEUNUMERO" target="_blank" class="btn-flutuante whatsapp" title="WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+  <a href="#agendamento" class="btn-flutuante agendamento" title="Agendamento">
+    <i class="bi bi-calendar-check"></i>
+  </a>
+  <a href="mailto:contato@emjconsultoria.com" class="btn-flutuante email" title="E-mail">
+    <i class="bi bi-envelope-fill"></i>
+  </a>
+  <button id="btn-descer" class="btn-flutuante descer" title="Descer" style="display:none;">
+    <i class="bi bi-arrow-down"></i>
+  </button>
+  <button id="btn-topo" class="btn-flutuante topo" title="Voltar ao topo" style="display:none;">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+</div>
+
+
+
+  <!-- Bootstrap JS (necessário para modal) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="js/script.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="js/publicidade.js"></script>
+</body>
+</html>
