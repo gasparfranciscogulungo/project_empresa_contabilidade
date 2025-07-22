@@ -164,8 +164,8 @@ Este é um template open-source. Para customizações específicas ou suporte, c
 ### 📞 **CONTATO PARA LICENCIAMENTO**
 - 🏢 **Empresa**: Gaspar G Tech
 - 👨‍💼 **Responsável**: Gaspar Francisco Gulungo  
-- 📧 **E-mail**: [inserir email comercial]
-- 📱 **Telefone**: [inserir telefone]
+- 📧 **E-mail**: gasparfranciscogulungo@gamil.com
+- 📱 **Telefone**: 244 946 966 670
 
 ---
 
