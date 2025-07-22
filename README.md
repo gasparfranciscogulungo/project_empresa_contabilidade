@@ -1,8 +1,12 @@
 # Template Website Corporativo - Consultoria & Finanças
 
+**© 2025 Gaspar G Tech - Propriedade Intelectual Protegida**
+
 ## 📋 Sobre o Projeto
 
-Template/modelo de website institucional desenvolvido para empresas de consultoria, contabilidade e finanças. Este projeto fornece uma base sólida e profissional para empresas que oferecem serviços de consultoria contábil, fiscal, recursos humanos e jurídica.
+Template/modelo de website institucional **licenciado** desenvolvido pela **Gaspar G Tech** para empresas de consultoria, contabilidade e finanças. Este projeto fornece uma base sólida e profissional para empresas que oferecem serviços de consultoria contábil, fiscal, recursos humanos e jurídica.
+
+⚠️ **AVISO LEGAL**: Este template é propriedade exclusiva da Gaspar G Tech e está protegido pela Lei 9.610/98. Uso não autorizado será processado judicialmente.
 
 ## 🚀 Funcionalidades
 
@@ -135,10 +139,34 @@ O projeto é totalmente responsivo com breakpoints otimizados para:
 
 Este é um template open-source. Para customizações específicas ou suporte, contate o desenvolvedor.
 
-## 📄 Licença
+## 📄 Licença e Direitos Autorais
 
-Template livre para uso comercial e pessoal. Créditos ao desenvolvedor são apreciados mas não obrigatórios.
+### ⚖️ **PROPRIEDADE INTELECTUAL PROTEGIDA**
+
+**Este template é propriedade exclusiva da Gaspar G Tech e está protegido pelas seguintes leis:**
+
+- **Lei nº 9.610/98** - Lei de Direitos Autorais
+- **Lei nº 9.279/96** - Lei de Propriedade Industrial  
+- **Código Penal Brasileiro** - Art. 184 (Crime contra a propriedade intelectual)
+
+### 🏢 **INFORMAÇÕES LEGAIS**
+- **Proprietário**: Gaspar G Tech
+- **Autor**: Gaspar Francisco Gulungo
+- **CNPJ**: [Inserir CNPJ da empresa]
+- **Registro**: Template registrado e protegido
+
+### ⚠️ **TERMOS DE USO**
+- ✅ **Licenciamento obrigatório** para uso comercial
+- 🚫 **Uso não autorizado** constitui crime
+- ⚖️ **Violações serão processadas** judicialmente
+- 💼 **Contrato de licença** obrigatório
+
+### 📞 **CONTATO PARA LICENCIAMENTO**
+- 🏢 **Empresa**: Gaspar G Tech
+- 👨‍💼 **Responsável**: Gaspar Francisco Gulungo  
+- 📧 **E-mail**: [inserir email comercial]
+- 📱 **Telefone**: [inserir telefone]
 
 ---
 
-**Última atualização**: Julho 2025 | **Versão**: 2.0 | **Status**: Produção
+**© 2025 Gaspar G Tech. Todos os direitos reservados. Uso não autorizado será processado judicialmente.**

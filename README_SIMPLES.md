@@ -1,15 +1,17 @@
-# 🏢 Website para Empresas de Consultoria - Guia Simples
+# 🏢 Website para Empresas de Consultoria - Template Licenciado
+
+**© 2025 Gaspar G Tech - Todos os direitos reservados**
 
 ## 🎯 O que é este projeto?
 
-Este é um **site completo e profissional** pronto para ser usado por empresas de:
+Este é um **template profissional licenciado** desenvolvido pela **Gaspar G Tech** para empresas de:
 - 📊 **Contabilidade**
 - 💼 **Consultoria Empresarial** 
 - 💰 **Finanças**
 - ⚖️ **Advocacia**
 - 👥 **Recursos Humanos**
 
-É como um **modelo/template** que você pode personalizar com as informações da sua empresa!
+⚠️ **IMPORTANTE**: Este template é propriedade da Gaspar G Tech e requer licenciamento para uso comercial.
 
 ## ✨ O que o site tem?
 
@@ -195,13 +197,104 @@ Imagine que o site é como uma **casa bem organizada**:
 - Visual profissional
 - Funciona perfeitamente
 
-## 🤝 Suporte
+## 🤝 Licenciamento e Direitos Autorais
 
-Este é um projeto **open source** (código aberto), o que significa:
-- ✅ Você pode usar gratuitamente
-- ✅ Pode modificar como quiser
-- ✅ Pode usar comercialmente
-- ✅ Não precisa pagar nada
+### ⚖️ **PROPRIEDADE INTELECTUAL**
+
+**Este projeto é propriedade exclusiva da empresa Gaspar G Tech.**
+
+#### **📄 Termos de Uso e Licenciamento**
+
+**IMPORTANTE:** O uso deste template está sujeito aos seguintes termos legais:
+
+### **1. DIREITOS AUTORAIS (Lei nº 9.610/98)**
+- ✅ **Proprietário**: Gaspar G Tech (CNPJ: [Inserir CNPJ])
+- ✅ **Autor**: Gaspar Francisco Gulungo
+- ✅ **Registro**: Template registrado sob proteção da Lei de Direitos Autorais
+- ⚠️ **Uso não autorizado constitui violação dos direitos autorais**
+
+### **2. LICENCIAMENTO COMERCIAL**
+Para utilizar este template, é **OBRIGATÓRIO**:
+
+#### **📋 Licença Básica**
+- 💳 **Aquisição de licença** junto à Gaspar G Tech
+- 📝 **Contrato de uso** devidamente assinado
+- 🏢 **Identificação da empresa licenciada**
+- ⏰ **Período de validade** especificado no contrato
+
+#### **🚫 USO NÃO AUTORIZADO**
+O uso sem autorização prévia da Gaspar G Tech constitui:
+- **Violação da Lei 9.610/98** (Direitos Autorais)
+- **Concorrência desleal** (Lei 9.279/96)
+- **Uso indevido de propriedade intelectual**
+
+### **3. PENALIDADES LEGAIS**
+
+Conforme previsto na **Lei nº 9.610/98 - Art. 102 a 110**, o uso não autorizado pode resultar em:
+
+#### **⚖️ Sanções Civis:**
+- 💰 **Indenização** pelos danos patrimoniais e morais
+- 💸 **Lucros cessantes** da empresa proprietária
+- 🔄 **Restituição** de todos os valores obtidos com uso indevido
+- ⛔ **Apreensão** de material com uso não autorizado
+
+#### **🏛️ Sanções Criminais:**
+- **Art. 184 do Código Penal**: Violação de direito autoral
+- 👮‍♂️ **Detenção** de 3 meses a 1 ano, ou multa
+- ⚖️ **Ação penal** por crime contra a propriedade intelectual
+
+### **4. PROCESSO JUDICIAL**
+
+**A Gaspar G Tech se reserva o direito de:**
+- 📋 **Mover ação judicial** contra uso não autorizado
+- 💼 **Contratar advogados especializados** em propriedade intelectual
+- 🏛️ **Buscar reparação** em todas as instâncias judiciais
+- 📊 **Solicitar perícia técnica** para comprovação de uso indevido
+
+### **5. COMO OBTER LICENÇA LEGAL**
+
+#### **📞 Contato Comercial:**
+- 🏢 **Empresa**: Gaspar G Tech
+- 👨‍💼 **Responsável**: Gaspar Francisco Gulungo
+- 📧 **E-mail**: [inserir email comercial]
+- 📱 **Telefone**: [inserir telefone comercial]
+- 🌐 **Website**: [inserir website da empresa]
+
+#### **📋 Documentos Necessários:**
+1. **Dados da empresa interessada**
+2. **CNPJ e documentos legais**
+3. **Finalidade de uso do template**
+4. **Período de licenciamento desejado**
+
+### **6. GARANTIAS E RESPONSABILIDADES**
+
+#### **✅ Garantias da Gaspar G Tech:**
+- 🔧 **Suporte técnico** durante vigência da licença
+- 🔄 **Atualizações de segurança** quando necessárias
+- 📖 **Documentação completa** de uso
+- 🛡️ **Garantia de funcionamento** conforme especificado
+
+#### **⚠️ Responsabilidades do Licenciado:**
+- 📜 **Cumprimento integral** dos termos contratuais
+- 💰 **Pagamento em dia** das parcelas de licenciamento
+- 🚫 **Não redistribuição** sem autorização expressa
+- 📊 **Relatórios de uso** quando solicitados
+
+### **7. MONITORAMENTO E FISCALIZAÇÃO**
+
+**A Gaspar G Tech utiliza:**
+- 🔍 **Sistemas de monitoramento** web para detecção de uso não autorizado
+- 🤖 **Algoritmos de rastreamento** de código
+- 👨‍💻 **Perícia técnica especializada**
+- 📊 **Relatórios de violação** automatizados
+
+---
+
+### **⚠️ AVISO LEGAL IMPORTANTE**
+
+**QUALQUER USO DESTE TEMPLATE SEM A DEVIDA AUTORIZAÇÃO DA GASPAR G TECH RESULTARÁ EM PROCESSO JUDICIAL IMEDIATO.**
+
+**A empresa possui recursos técnicos e jurídicos para identificar e processar casos de uso indevido.**
 
 ## 🎉 Resumo final
 
@@ -219,4 +312,11 @@ Este é um projeto **open source** (código aberto), o que significa:
 
 📅 **Criado em**: Julho 2025  
 ⭐ **Versão**: 2.0 Profissional  
-🚀 **Status**: Pronto para produção
+🚀 **Status**: Licenciamento Comercial Ativo  
+🏢 **Proprietário**: Gaspar G Tech  
+👨‍💼 **Autor**: Gaspar Francisco Gulungo  
+⚖️ **Proteção Legal**: Lei 9.610/98 (Direitos Autorais)  
+
+---
+
+**© 2025 Gaspar G Tech. Todos os direitos reservados. Uso não autorizado será processado judicialmente.**
