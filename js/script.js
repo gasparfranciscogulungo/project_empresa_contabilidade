@@ -339,19 +339,111 @@
     }
   };
 
-  // Header Scroll Effect
+  // Header Scroll Effect - Profissional com ocultação dinâmica
   const HeaderScrollModule = {
     init() {
       this.header = document.querySelector('.header');
+      this.progressBar = document.querySelector('.scroll-progress');
       if (!this.header) return;
       
+      this.lastScrollTop = 0;
+      this.scrollThreshold = 5; // Sensibilidade do scroll
+      this.hideThreshold = 100; // Pixel onde começa a ocultar
+      this.isHidden = false;
+      this.scrollTimer = null;
+      
+      // Usar requestAnimationFrame para performance
+      this.bindScrollEvent();
+    },
+
+    bindScrollEvent() {
+      let ticking = false;
+      
       window.addEventListener('scroll', () => {
-        if (window.scrollY > 100) {
-          this.header.classList.add('scrolled');
-        } else {
-          this.header.classList.remove('scrolled');
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            this.handleScroll();
+            ticking = false;
+          });
+          ticking = true;
         }
-      });
+      }, { passive: true });
+    },
+
+    handleScroll() {
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      // Calcular progresso de scroll
+      this.updateScrollProgress();
+      
+      // Adicionar efeito de blur/transparência quando rola
+      if (currentScrollTop > 50) {
+        this.header.classList.add('scrolled');
+      } else {
+        this.header.classList.remove('scrolled');
+      }
+      
+      // Só aplicar hide/show se passou do threshold
+      if (currentScrollTop < this.hideThreshold) {
+        this.showHeader();
+        this.lastScrollTop = currentScrollTop;
+        return;
+      }
+      
+      // Detectar direção do scroll
+      const scrollDifference = Math.abs(currentScrollTop - this.lastScrollTop);
+      
+      if (scrollDifference < this.scrollThreshold) {
+        return; // Movimento muito pequeno, ignorar
+      }
+      
+      if (currentScrollTop > this.lastScrollTop && !this.isHidden) {
+        // Scrolling down - ocultar header
+        this.hideHeader();
+      } else if (currentScrollTop < this.lastScrollTop && this.isHidden) {
+        // Scrolling up - mostrar header
+        this.showHeader();
+      }
+      
+      this.lastScrollTop = currentScrollTop;
+      
+      // Auto-mostrar após parar de scrollar
+      this.autoShowOnStop();
+    },
+
+    updateScrollProgress() {
+      if (!this.progressBar) return;
+      
+      const scrollTop = window.pageYOffset;
+      const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercentage = (scrollTop / documentHeight);
+      
+      // Atualizar variável CSS para o progresso
+      this.header.style.setProperty('--scroll-progress', scrollPercentage);
+    },
+
+    hideHeader() {
+      this.header.classList.add('hide-on-scroll');
+      this.isHidden = true;
+    },
+
+    showHeader() {
+      this.header.classList.remove('hide-on-scroll');
+      this.isHidden = false;
+    },
+
+    autoShowOnStop() {
+      // Clear timer anterior
+      if (this.scrollTimer) {
+        clearTimeout(this.scrollTimer);
+      }
+      
+      // Mostrar header após 1.5s sem scroll
+      this.scrollTimer = setTimeout(() => {
+        if (this.isHidden) {
+          this.showHeader();
+        }
+      }, 1500);
     }
   };
 
